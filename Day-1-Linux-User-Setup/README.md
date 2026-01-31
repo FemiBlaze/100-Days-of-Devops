@@ -9,7 +9,7 @@ I created a Linux user named yousuf with a non-interactive shell on App Server 2
 - How to identify the correct server and connect via a jump server using SSH
 
 ## Commands / Configurations Used
-\`\`\`bash
+
 # Connected from Jump Server to App Server 2
 ssh steve@stapp02
 
@@ -25,7 +25,7 @@ useradd yousuf -s /sbin/nologin
 # Verified User Creation
 grep yousuf /etc/passwd
 
-\`\`\`
+
 
 ## Verification Steps Taken
 - I checked the hostname to confirm I was on stapp02
